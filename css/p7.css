@@ -1,0 +1,31 @@
+#p7{
+  min-width:560px;
+  background: url('../public/imgs/fourth_bg.jpg') center 100% no-repeat;
+}
+
+#p7 .body>div:nth-child(2){
+  margin-top: -110px;
+}
+
+#p7 .body>div:nth-child(3){
+  font-size: 16px;
+  letter-spacing: .045em;
+  line-height: 26px;
+  font-family: "å¾®è½¯é›…é»‘";
+  position: absolute;
+  top:10px;
+  left:-35%;
+  transition: opacity 1.5s, margin 1s;
+}
+/* 谷歌定位位置 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #p7 .body>div:nth-child(3){
+    left:-25%;
+  }
+}
+/* 火狐定位位置 */
+@-moz-document url-prefix() { 
+  #p7 .body>div:nth-child(3){
+    left:-35%;
+  }
+}

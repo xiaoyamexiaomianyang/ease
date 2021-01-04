@@ -1,0 +1,46 @@
+/* p1 */
+#p1{
+  min-width:560px;
+  background: url('../public/imgs/fourth_bg.jpg') center 100% no-repeat;
+}
+
+#p1 .body span{
+  height: 23px;
+  background-color: #ffb533;
+  font-size: 18px;
+  color: #8d8d8d;
+  font-family: "Arial";
+  text-align: center;
+}
+#p1 .body>div:nth-child(4)~div{
+  width:22em;
+  font-size: 36px;
+  color: #2f313b;
+  letter-spacing: .02em;
+}
+#p1 .first_dec_three{
+  position: absolute;
+  top: 40px;
+  left: -95px;
+}
+#p1 .first_dec_four{
+  position: absolute;
+  top: 190px;
+  left: -95px;
+}
+#p1 .first_dec_five{
+  position: absolute;
+  top: 243px;
+  left: 197px;
+}
+#p1  .line_1{
+  position: absolute;
+  top: -80px;
+  left: -70px;
+}
+#p1  .line_2{
+  position: absolute;
+  bottom: -65px;
+  left: -105px;
+}
+

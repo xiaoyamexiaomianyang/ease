@@ -1,0 +1,75 @@
+#p5{
+  min-width:560px;
+  background: url('../public/imgs/fifth_bg.jpg') center 100% no-repeat;
+}
+
+#p5 .body>div:nth-child(2){
+  font-size: 30px;
+  color: #343740;
+  font-family: "é’é¸ŸåŽå…‰ç®€ç»¼è‰º";
+  letter-spacing: .12em;
+  margin-top: -110px;
+}
+#p5 .body>div:nth-child(2)>p+p{
+  font-size: 18px;
+  opacity: .6;
+  letter-spacing:0em;
+  text-transform: uppercase;
+}
+#p5 .body>div:nth-child(2)>i{
+  display: block;
+  width: 43px;
+  height: 3px;
+  background-color: #ffb533;
+  margin-top: 2px;
+}
+#p5 .body>div:nth-child(2)>div{
+  float: right;
+  text-align: center;
+  font-size: 22px;
+  color: #8a8a8b;
+  letter-spacing: .08em;
+  margin:-65px 100px;
+}
+#p5 .body>div:nth-child(2)>div>p{
+  padding: 0px 7px;
+}
+#p5 .body>div:nth-child(2)>div>p+p{
+  border-top-left-radius:15px;
+  background-color: #000;
+  color:#fff;
+}
+
+#p5 .body>div:nth-child(3)>div{
+  margin-top:20px;
+  font-family: "å¾®è½¯é›…é»‘";
+  font-size: 24px;
+  color: #2f323b;
+  line-height: 28px;
+}
+#p5 .body>div:nth-child(3)>div>p+p{
+  font-size: 12px;
+  font-family: "Arial";
+  color: #000;
+}
+#p5 .body>div:nth-child(3)>div>i{
+  display: block;
+  width: 110px;
+  height: 2px;
+  background-color: #dcdcdc;
+  margin: 6px 0;
+}
+#p5 .body>div:nth-child(3)>div>i~p{
+  font-size: 18px;
+  color: #2f323b;
+}
+#p5 .body>div:nth-child(3)>div span{
+  color:red;
+}
+
+#p5 #hebt{
+  transition: opacity 2s;
+}
+#p5 #hebtf3{
+  transition:margin 1s;
+}

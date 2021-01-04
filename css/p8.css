@@ -1,0 +1,83 @@
+#p8{
+  min-width:560px;
+}
+#p8 .body{
+  display: flex;
+  justify-content: space-around;
+  width:1200px;
+  margin:140px auto;
+}
+#p8 input{
+  width:70%;
+  border: none;
+  background-color: rgba(256,256,256,0);
+  font-size: 20px;
+}
+#p8 input:focus{
+  outline: none;
+}
+
+#p8 .body>:nth-child(2){
+  color: #2f323b;
+  font-size: 20px;
+  width:362px;
+  margin-top:-110px;
+  margin-left: -180px;
+  line-height: 50px;
+}
+#p8 .body>:nth-child(2)>div+div:not(:last-child){
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin:30px 0px;
+  height:50px
+}
+#p8 .body>:nth-child(2)>div:last-child{
+  display: flex;
+}
+#p8 .body>:nth-child(2) span{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  margin-left:10px;
+  font-size: 24px;
+  line-height: 24px;
+  height:24px;
+  font-family: "Arial";
+  color: #3e4149;
+  padding: 10px 8px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+#p8 .body>:nth-child(3){
+  margin-top: -110px;
+}
+#p8 .body>:nth-child(3)>div+div{
+  display: flex;
+  margin-top: 20px;
+}
+#p8 .body>:nth-child(3)>div+div>div+div{
+  margin-left:20px;
+  font-size: 16px;
+  letter-spacing: .16em;
+  color: #2f323b;
+}
+#p8 .body>:nth-child(3)>div+div>div+div>p:nth-child(2n-1){
+  font-weight: 600;
+  margin-top: 10px;
+}
+/* 百度地图 */
+#p8 #container{
+  width: 570px;
+  height:229px;
+}
+
+#p8body{
+  transition:opacity 1s
+}
+#dt{
+  transition: margin-left 1s;
+}

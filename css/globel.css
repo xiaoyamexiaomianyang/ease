@@ -1,0 +1,134 @@
+*{
+  margin: 0;padding: 0;
+}
+html,body{
+  scroll-behavior: smooth;
+} 
+html,body,#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+  height: 100%;
+}
+html, body, input, p, a, span, ul, li, dl, dt, dd, ol, select, td, th, input, textarea, button, div {
+  font-family: 微软雅黑;
+}
+
+.box{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.easeworld{
+  width:258px;
+  font-size:24px;
+  width: 256px;
+  height: 54px;
+  border: 1px solid #232733;
+  line-height: 54px;
+  padding:0 10px;
+  box-sizing:border-box;
+  letter-spacing:0.14rem;
+  margin:30px 0;
+}
+.easeworld img{
+  margin-left: 15px;
+}
+
+.body {
+  width:500px;height:300px;
+  margin:140px 220px;
+  position: relative;
+}
+
+.footer{
+  margin:160px 0px;
+  margin-right: 30px; 
+}
+.footer>div:first-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer i{
+  display: block;
+  width: 5px;
+  height: 30px;
+  border-radius: 2.5px;
+  background-color: #2f323b;
+}
+.footer .down{
+  width: 33px;
+  padding:15px 1px;
+  border: 1px solid #232733;
+  text-align: center;
+}
+.footer .down>img:first-child{
+  margin-left:5px;
+}
+.footer p{
+  font-size: 24px;
+  color: #2f323b;
+  font-family: "Arial";
+  letter-spacing: 0.24em;
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  position: absolute;
+  right:25px;
+  top:20px
+}
+.right>div:first-child{
+  margin-left: -5px;
+}
+.right p{
+  font-size: 24px;
+  font-family: "Arial";
+  color: #2f313b;
+  font-weight: 600;
+  transform: rotate(-90deg)
+}
+.right i{
+  display: block;
+  width: 1px;
+  height: 175px;
+  background-color: #232733;
+  margin:3px auto;
+}
+.right ul{
+  margin-top:100px;
+  list-style: none;
+}
+.right ul>a{
+  display: block;
+  margin-top:18px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border:1px solid #232733;
+}
+.right ul>a:hover{
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+  background-color: #ffb533;
+}
+
+ul>.active{
+  height: 30px !important;
+  border-radius: 5px !important;
+  border:none !important;
+  background-color: #ffb533 !important;
+}
+
+@keyframes arise{
+  from{
+    opacity:0;
+  }
+  40%{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
